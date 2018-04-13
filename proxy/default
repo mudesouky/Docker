@@ -21,7 +21,7 @@ server {
     server_name  site3.com www.site3.com;
 
     location / {
-        proxy_pass http://192.168.0.5;
+        proxy_pass http://192.168.0.4;
     }
 }
 
@@ -30,7 +30,7 @@ server {
     server_name  site4.com www.site4.com;
 
     location / {
-        proxy_pass http://192.168.0.6;
+        proxy_pass http://192.168.0.5;
     }
 }
 
